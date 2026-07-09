@@ -568,9 +568,9 @@ function viewWelcome() {
         </div>
       </div>
       <div class="welcome-facts">
-        <p>${LEAF()} <b>12 experiences</b>, each 10–20 minutes</p>
-        <p>${LEAF()} Evidence-based: tested in randomized trials with 4,500+ participants</p>
-        <p>${LEAF()} Pick up right where you left off, any time</p>
+        <p>${LEAF()}<span><b>12 experiences</b>, each 10–20 minutes</span></p>
+        <p>${LEAF()}<span>Evidence-based: tested in randomized trials with 4,500+ participants</span></p>
+        <p>${LEAF()}<span>Pick up right where you left off, any time</span></p>
       </div>
       <div class="welcome-cta">
         ${started ? `<a class="btn btn--primary btn--big" href="#/journey">Continue your journey</a>` : `<a class="btn btn--primary btn--big" href="#/letter">Begin</a>`}
@@ -709,10 +709,10 @@ function viewPrivacy() {
       <p>This site is a set of static files — there is <b>no server, no database, no account, and no analytics</b>. When you type a response, it is saved by your browser using a feature called <i>localStorage</i>, which lives entirely on your device. Your responses are never transmitted over the internet. You can verify this: open your browser's developer tools and watch the network tab — after the page loads, no requests are made at all.</p>
       <h2>What that means in practice</h2>
       <ul>
-        <li>${LEAF()} Your writing persists between visits, so you can complete the 12 lessons over days or weeks. It stays until <b>you</b> delete it.</li>
-        <li>${LEAF()} Anyone who uses this same browser profile on this device could open this site and see your responses. If you share a computer, consider using a private/incognito window (note: your writing is erased when a private window closes) or erasing your data below when you finish.</li>
-        <li>${LEAF()} Clearing your browser's site data will also erase your responses. Use the download button below first if you want to keep them.</li>
-        <li>${LEAF()} Your responses do not follow you across devices or browsers — there is no account and no cloud copy.</li>
+        <li>${LEAF()}<span>Your writing persists between visits, so you can complete the 12 lessons over days or weeks. It stays until <b>you</b> delete it.</span></li>
+        <li>${LEAF()}<span>Anyone who uses this same browser profile on this device could open this site and see your responses. If you share a computer, consider using a private/incognito window (note: your writing is erased when a private window closes) or erasing your data below when you finish.</span></li>
+        <li>${LEAF()}<span>Clearing your browser's site data will also erase your responses. Use the download button below first if you want to keep them.</span></li>
+        <li>${LEAF()}<span>Your responses do not follow you across devices or browsers — there is no account and no cloud copy.</span></li>
       </ul>
       <h2>Your data, your controls</h2>
       <div class="data-btns">
